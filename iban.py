@@ -15,6 +15,6 @@ def valid_check(iban_no_spaces):
         if iban_numbers_int % 97 == 1:
             print(True, "Valid IBAN")
         else:
-            print("None of above")
+            print(False, "Invalid IBAN")
 
 IBAN_address_input()
